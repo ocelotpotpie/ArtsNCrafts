@@ -1,0 +1,23 @@
+name: ${project.name}
+version: ${project.version}
+author: totemo
+authors: []
+description: ${project.description}
+website: ${project.url}
+main: nu.nerd.anc.ArtsNCrafts
+api-version: 1.16
+
+permissions:
+  nerdpoints.console:
+    description: Permission to administer the plugin.
+    default: op
+
+commands:
+  artsncrafts:
+    description: ${project.name} administrative command.
+    permission: nerdpoints.console
+    usage: |
+
+      §e/<command> help§f - Show this help. Equivalent to §e/help /nerdpoints§f.  
+      §e/<command> reload§f - Reload the configuration.
+
