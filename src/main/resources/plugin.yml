@@ -8,7 +8,7 @@ main: nu.nerd.anc.ArtsNCrafts
 api-version: 1.16
 
 permissions:
-  nerdpoints.console:
+  artsncrafts.console:
     description: Permission to administer the plugin.
     default: op
 
