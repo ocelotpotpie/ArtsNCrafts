@@ -4,7 +4,7 @@
 
 	<groupId>nu.nerd</groupId>
 	<artifactId>ArtsNCrafts</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<description>Features that enable non-vanilla decorative structures.</description>
 	<url>https://github.com/NerdNu/${project.name}</url>
