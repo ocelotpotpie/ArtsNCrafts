@@ -12,12 +12,24 @@ permissions:
     description: Permission to administer the plugin.
     default: op
 
+  artsncrafts.command.painting:
+    description: Permission to use /painting.
+    default: op
+
 commands:
   artsncrafts:
     description: ${project.name} administrative command.
-    permission: nerdpoints.console
+    permission: artsncrafts.command.reload
     usage: |
 
       §e/<command> help§f - Show this help. Equivalent to §e/help /nerdpoints§f.  
       §e/<command> reload§f - Reload the configuration.
 
+  painting:
+    description: Choose the next painting that you will place.
+    permission: artsncrafts.command.painting
+    usage: |
+
+      §e/<command> help§f - Show this help.  
+      §e/<command> <name>§f - Specify the next painting you place, by name.
+  
